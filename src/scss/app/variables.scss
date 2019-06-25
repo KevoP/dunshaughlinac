@@ -1,0 +1,12 @@
+// Create your SCSS variables here and it will override bootstrap styles
+$enable-gradients: true;
+$success:       #EAB50F;
+$transition-default: .3s linear;
+$dark: #343a40;
+
+$gradient-dark: #1a171b linear-gradient(180deg, #3c3a3d, #1a171b) repeat-x;
+
+.bg-dark-gradient{
+    background: $dark;
+    background: $gradient-dark;
+}

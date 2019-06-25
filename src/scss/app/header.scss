@@ -1,0 +1,23 @@
+header{
+
+    font-weight: 500;
+    nav{
+        @include gradient-bg(#1a171b);
+    }
+}
+
+#main-nav{
+    a{
+        color: white;
+        padding-bottom: 18px;
+        border-bottom: 3px solid transparent;
+        padding-top: 18px;
+
+        &:hover,
+        &:active,
+        &.active{
+            border-bottom-color: $success;
+            color: $success;
+        }
+    }
+}

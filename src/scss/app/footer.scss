@@ -1,0 +1,20 @@
+footer{
+    @include gradient-bg(#1a171b);
+
+    li{
+        margin-bottom: 16px;
+    }
+
+    a{
+        color: white;
+        transition: 0.3s linear;
+        border-bottom: 3px solid white;
+        padding: 4px 0 ;
+
+        &:hover{
+            color: $success;
+            text-decoration: none;
+            border-bottom: 3px solid $success;
+        }
+    }
+}
